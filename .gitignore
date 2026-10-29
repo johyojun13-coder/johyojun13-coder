@@ -1,0 +1,12 @@
+# Secret Environment & Token files (CRITICAL SECURITY)
+.env
+*.env
+api_tokens.json
+tokens.json
+
+# Browser automation profiles & temporary caches
+chrome_profile/
+chrome_profile
+*.log
+scratch/
+.system_generated/
