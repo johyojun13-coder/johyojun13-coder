@@ -2,14 +2,11 @@
 | :---: | :---: | :---: | :---: | :---: |
 | [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [SA العربية](./ar.md) | [IN हिन्दी](./hi.md) |
 
----: | :---: | :---: | :---: | :---: |
-| [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [BR Português](./pt-BR.md) | [SA العربية](./ar.md) |
-
 ---
 
 # Matteo Valenti
 
-**Ingénieur Logiciel Systèmes & Développeur de Moteurs de Stockage**  
+**Ingénieur Logiciel Systèmes Principal & Architecte Stockage**  
 Basé à Zurich, Suisse · Originaire de Bologne, Italie  
 
 > *"Sympathie mécanique (Mechanical Sympathy), E/S avec contournement du noyau et concurrence déterministe sur architectures massivement multicoeurs."*
@@ -67,7 +64,7 @@ Assembleur :           x86_64 SIMD (AVX-512 / AVX2), intrinsèques de base ARM64
    L'allocation dynamique sur le chemin critique des données est considérée comme un défaut d'architecture. Tout octet provenant du disque ou du réseau est épinglé en mémoire et transféré via des tampons zéro-copie dès que le système d'exploitation l'autorise.
 
 3. **Domaines de Défaillance Déterministes**  
-   Les pannes des architectures distribuées sont non-linéaires. Je privilégie les architectures logicielles de type *crash-only* : une réconciliation claire des états, une récupération autonome via le journal (WAL) et des tests reproductibles d'ingénierie du chaos, plutôt que des heuristiques de récupération fragiles.
+   Les pannes des architectures distribuées sont non-linéaires. Je privilégie les architectures logicielles de type *crash-only* : une réconciliation claire des états, une récupération déterministe via le journal (WAL) et des tests reproductibles d'ingénierie du chaos, plutôt que des heuristiques de récupération fragiles.
 
 ---
 

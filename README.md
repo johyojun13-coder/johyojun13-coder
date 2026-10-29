@@ -2,14 +2,11 @@
 | :---: | :---: | :---: | :---: | :---: |
 | [FR Français](./docs/locales/fr.md) | [DE Deutsch](./docs/locales/de.md) | [RU Русский](./docs/locales/ru.md) | [SA العربية](./docs/locales/ar.md) | [IN हिन्दी](./docs/locales/hi.md) |
 
----: | :---: | :---: | :---: | :---: |
-| [FR Français](./docs/locales/fr.md) | [DE Deutsch](./docs/locales/de.md) | [RU Русский](./docs/locales/ru.md) | [BR Português](./docs/locales/pt-BR.md) | [SA العربية](./docs/locales/ar.md) |
-
 ---
 
 # Matteo Valenti
 
-**Systems Software Engineer & Storage Engine Craftsman**  
+**Staff Systems Software Engineer & Storage Architect**  
 Based in Zurich, Switzerland · Originally from Bologna, Italy  
 
 > *"Mechanical sympathy, kernel-bypass I/O, and deterministic concurrency under high core counts."*
@@ -21,7 +18,7 @@ I design and build low-latency storage engines, asynchronous I/O architectures, 
 ## 🧭 Focus & Active Investigations
 
 - **NVMe Direct-Access Engines**: Designing `ring-kv`, an experimental embedded key-value store built around `io_uring` and zoned block devices (ZBC/ZNS).
-- **Lockless Write-Ahead Logging**: Reducing p99.9 write tail latency in distributed Raft state machines via circular ring buffers and vectorized zero-copy batching.
+- **Lock-Free Write-Ahead Logging**: Reducing p99.9 write tail latency in distributed Raft state machines via circular ring buffers and vectorized zero-copy batching.
 - **eBPF-driven Systems Telemetry**: Writing in-kernel tracing probes to identify scheduling jitter and NUMA-node interconnect saturation on high-throughput server workloads.
 - **Micro-benchmarking Rigor**: Building reproducible cache-miss and branch-misprediction testing suites for low-level memory allocators.
 
@@ -67,7 +64,7 @@ Assembly:      x86_64 SIMD (AVX-512 / AVX2), basic ARM64 NEON intrinsics
    Memory allocations inside the hot data path are treated as architecture defects. Every byte transferred from disk or network to memory is pinned, sliced, and moved through zero-copy buffers whenever OS primitives permit.
 
 3. **Deterministic Failure Domains**  
-   Distributed systems fail in non-obvious ways. I prioritize crash-only software designs: clear state reconciliation, self-healing WAL recovery, and reproducible chaos test suites over complex, brittle recovery heuristics.
+   Distributed systems fail in non-obvious ways. I prioritize crash-only software designs: clear state reconciliation, self-healing WAL recovery, and reproducible stress testing over complex, brittle recovery heuristics.
 
 ---
 

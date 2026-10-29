@@ -2,14 +2,11 @@
 | :---: | :---: | :---: | :---: | :---: |
 | [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [SA العربية](./ar.md) | [IN हिन्दी](./hi.md) |
 
----: | :---: | :---: | :---: | :---: |
-| [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [BR Português](./pt-BR.md) | [SA العربية](./ar.md) |
-
 ---
 
 # Matteo Valenti
 
-**Systemsoftware-Ingenieur & Entwickler von Speicher-Engines**  
+**Leitender Systemsoftware-Ingenieur & Speicherarchitekt**  
 Wohnhaft in Zürich, Schweiz · Geboren in Bologna, Italien  
 
 > *"Mechanische Sympathie (Mechanical Sympathy), Kernel-Bypass-I/O und deterministische Nebenläufigkeit auf hochgradig parallelen Mehrkernsystemen."*

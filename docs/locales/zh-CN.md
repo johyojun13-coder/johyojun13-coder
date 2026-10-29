@@ -2,14 +2,11 @@
 | :---: | :---: | :---: | :---: | :---: |
 | [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [SA العربية](./ar.md) | [IN हिन्दी](./hi.md) |
 
----: | :---: | :---: | :---: | :---: |
-| [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [BR Português](./pt-BR.md) | [SA العربية](./ar.md) |
-
 ---
 
 # 马特奥·瓦伦蒂 (Matteo Valenti)
 
-**系统软件工程师 / 存储引擎研发者**  
+**主任系统软件工程师兼存储架构师**  
 现居瑞士苏黎世 · 原籍意大利博洛尼亚  
 
 > *"机械同理心（Mechanical Sympathy）、内核旁路 I/O，以及高核心并发下的确定性控制。"*

@@ -23,10 +23,10 @@
 ```markdown
 # Matteo Valenti
 
-**Systems & Storage Engineer · ML Runtime & Low-Latency Systems**  
+**Staff Systems Software Engineer & Storage Architect**  
 Zurich, Switzerland · Bologna, Italy
 
-> *"Treating LLM inference as a hardware-level streaming and memory bandwidth orchestration problem."*
+> *"Treating deep learning model inference as a hardware-level streaming and memory bandwidth problem."*
 
 I approach machine learning from the perspective of low-level systems programming: memory layout, PCIe saturation, zero-copy deserialization, and cache-conscious tensor operations. Rather than model architecture design, my work centers on what happens between the NVMe controller, the host RAM, and the accelerator memory bus.
 

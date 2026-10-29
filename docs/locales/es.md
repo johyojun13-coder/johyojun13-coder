@@ -2,14 +2,11 @@
 | :---: | :---: | :---: | :---: | :---: |
 | [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [SA العربية](./ar.md) | [IN हिन्दी](./hi.md) |
 
----: | :---: | :---: | :---: | :---: |
-| [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [BR Português](./pt-BR.md) | [SA العربية](./ar.md) |
-
 ---
 
 # Matteo Valenti
 
-**Ingeniero de Software de Sistemas y Creador de Motores de Almacenamiento**  
+**Ingeniero Principal de Software de Sistemas y Arquitecto de Almacenamiento**  
 Residente en Zúrich, Suiza · Originario de Bolonia, Italia  
 
 > *"Simpatía mecánica (Mechanical Sympathy), I/O con bypass del kernel y concurrencia determinista en arquitecturas de alto conteo de núcleos."*
@@ -43,7 +40,7 @@ Diseño y construyo motores de almacenamiento de ultrabaja latencia, arquitectur
 ### Lenguajes y Sistemas Fundamentales
 ```text
 Principales:    Rust (nightly y stable), C++ Moderno (C++20 / C++23), C Estándar (C11/C17)
-Complementarios: Go, Zig, Bash, Python (análisis de telemetría y automatización)
+Complementarios: Go, Zig, Bash, Python (análisis de telemetría y scripts de sistemas)
 Ensamblador:    x86_64 SIMD (AVX-512 / AVX2), intrínsecos básicos ARM64 NEON
 ```
 

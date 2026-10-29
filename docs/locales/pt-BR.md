@@ -2,14 +2,11 @@
 | :---: | :---: | :---: | :---: | :---: |
 | [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [SA العربية](./ar.md) | [IN हिन्दी](./hi.md) |
 
----: | :---: | :---: | :---: | :---: |
-| [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [BR Português](./pt-BR.md) | [SA العربية](./ar.md) |
-
 ---
 
 # Matteo Valenti
 
-**Engenheiro de Software de Sistemas & Desenvolvedor de Motores de Armazenamento**  
+**Engenheiro de Software de Sistemas Principal e Arquiteto de Armazenamento**  
 Baseado em Zurique, Suíça · Natural de Bolonha, Itália  
 
 > *"Simpatia mecânica (Mechanical Sympathy), E/S com bypass de kernel e concorrência determinística em arquiteturas com alta contagem de núcleos."*

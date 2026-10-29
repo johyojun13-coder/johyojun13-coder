@@ -3,7 +3,7 @@
 ## 1. Profile Settings (Settings -> Profile)
 
 - **Full Name**: `Matteo Valenti`
-- **Job Title**: `Systems Software Engineer & Storage Engine Craftsman`
+- **Job Title**: `Staff Systems Software Engineer & Storage Architect`
 - **Bio** (205 chars / limit 250):
   ```text
   Systems engineer in Zurich. Obsessed with kernel-bypass I/O (io_uring), lock-free data topologies, and deterministic low-latency storage. Maintaining ring-kv & building crash-only distributed primitives.
@@ -18,18 +18,18 @@
 ```markdown
 | [KR 한국어](https://github.com/johyojun13-coder/johyojun13-coder/blob/main/docs/locales/ko.md) | [US English](https://github.com/johyojun13-coder/johyojun13-coder/blob/main/README.md) | [JP 日本語](https://github.com/johyojun13-coder/johyojun13-coder/blob/main/docs/locales/ja.md) | [CN 简体中文](https://github.com/johyojun13-coder/johyojun13-coder/blob/main/docs/locales/zh-CN.md) | [ES Español](https://github.com/johyojun13-coder/johyojun13-coder/blob/main/docs/locales/es.md) |
 | :---: | :---: | :---: | :---: | :---: |
-| [FR Français](https://github.com/johyojun13-coder/johyojun13-coder/blob/main/docs/locales/fr.md) | [DE Deutsch](https://github.com/johyojun13-coder/johyojun13-coder/blob/main/docs/locales/de.md) | [RU Русский](https://github.com/johyojun13-coder/johyojun13-coder/blob/main/docs/locales/ru.md) | [BR Português](https://github.com/johyojun13-coder/johyojun13-coder/blob/main/docs/locales/pt-BR.md) | [SA العربية](https://github.com/johyojun13-coder/johyojun13-coder/blob/main/docs/locales/ar.md) |
+| [FR Français](https://github.com/johyojun13-coder/johyojun13-coder/blob/main/docs/locales/fr.md) | [DE Deutsch](https://github.com/johyojun13-coder/johyojun13-coder/blob/main/docs/locales/de.md) | [RU Русский](https://github.com/johyojun13-coder/johyojun13-coder/blob/main/docs/locales/ru.md) | [SA العربية](https://github.com/johyojun13-coder/johyojun13-coder/blob/main/docs/locales/ar.md) | [IN हिन्दी](https://github.com/johyojun13-coder/johyojun13-coder/blob/main/docs/locales/hi.md) |
 
 ---
 
 # Matteo Valenti
 
-**Systems Software Engineer · Low-Latency Storage & Kernel Infrastructure**  
+**Staff Systems Software Engineer & Storage Architect**  
 Zurich, Switzerland · Bologna, Italy
 
 > *"Hardware-aware data layout, asynchronous kernel-bypass pipelines, and deterministic failure reconciliation."*
 
-I build storage primitives, asynchronous file engines, and automated benchmarking harnesses. On GitLab, my primary focus is maintaining continuous verification pipelines for low-level systems software: bare-metal performance regression test suites, custom QEMU/KVM virtualized kernel testbeds, and isolated micro-benchmarks targeting NVMe block storage.
+I build storage primitives, asynchronous file engines, and continuous verification harnesses. On GitLab, my primary focus is maintaining continuous verification pipelines for low-level systems software: bare-metal performance regression test suites, custom QEMU/KVM virtualized kernel testbeds, and isolated micro-benchmarks targeting NVMe block storage.
 
 ---
 
@@ -37,9 +37,9 @@ I build storage primitives, asynchronous file engines, and automated benchmarkin
 
 | Workstream | Engine / Target | Focus | Pipeline Role |
 | :--- | :--- | :--- | :--- |
-| **`ring-kv-ci`** | Linux 6.x Zen / io_uring | Storage Engine | Automated regression tests verifying zero memory allocation on hot read/write loops. |
+| **`ring-kv-ci`** | Linux 6.x Zen / io_uring | Storage Engine | Regression test suites verifying zero memory allocation on hot read/write loops. |
 | **`qemu-kernel-matrix`** | QEMU, KVM, BusyBox | Kernel Testbed | Multi-architecture matrix builds validating eBPF tracepoints across kernel revisions. |
-| **`simd-bench-runner`** | GCC 14, Clang 18, Rust | Code Generation | Automated cache-line eviction and branch misprediction telemetry generation. |
+| **`simd-bench-runner`** | GCC 14, Clang 18, Rust | Code Generation | Fine-grained cache-line eviction and branch misprediction telemetry generation. |
 | **`raft-chaos-harness`** | Docker, tc-netem, Go | Network Faults | Deterministic network partition injection and split-brain recovery verification. |
 
 ---
